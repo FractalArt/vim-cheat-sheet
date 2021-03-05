@@ -16,6 +16,15 @@ This repository contains my personal vim cheatsheet, listing the commands that I
 | * | find the next occurence of the word under the cursor |
 | # | find the previous occurence of the word under the cursor |
 
+### Replacing
+
+| Command | Comment |
+| :-----: | :-----: |
+| :s/old/new/ | replace the first occurrence of `old` with `new` in the current line |
+| :s/old/new/ | replace all occurrences of `old` with `new` in the current line |
+| :%s/old/new/g | replace all occurrences of `old` with `new` in the complete file |
+| :`l1`,`l2`s/old/new/g | replace all occurrences of `old` with `new` between lines `l1` and `l2` |
+| :%s/old/new/gc | replace all occurrences of `old` with `new` in the complete file, each time asking for permission |
 ### Undo and Redo
 
 | Command | Comment |
@@ -102,6 +111,11 @@ A list of all buffers can be displayed by typing `:ls`. One can access the buffe
 A lot of the standard `vim` commands that we have seen above can be applied to the selection.
 
 ******
+
+
+## Misc
+
+- Type `:!` to execute an external command.
 
 ## References
 
