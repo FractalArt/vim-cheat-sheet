@@ -21,7 +21,7 @@ This repository contains my personal vim cheatsheet, listing the commands that I
 | Command | Comment |
 | :-----: | :-----: |
 | :s/old/new/ | replace the first occurrence of `old` with `new` in the current line |
-| :s/old/new/ | replace all occurrences of `old` with `new` in the current line |
+| :s/old/new/g | replace all occurrences of `old` with `new` in the current line |
 | :%s/old/new/g | replace all occurrences of `old` with `new` in the complete file |
 | :`l1`,`l2`s/old/new/g | replace all occurrences of `old` with `new` between lines `l1` and `l2` |
 | :%s/old/new/gc | replace all occurrences of `old` with `new` in the complete file, each time asking for permission |
