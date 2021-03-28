@@ -112,6 +112,12 @@ A lot of the standard `vim` commands that we have seen above can be applied to t
 
 ******
 
+## Dependencies
+
+### [Floaterm](https://github.com/voldikss/vim-floaterm)
+
+Entering normal mode in a `Floaterm` terminal `<Ctrl + \> + <Ctrl + N>`. To enter insert mode again type `i` as usual.
+
 
 ## Misc
 
